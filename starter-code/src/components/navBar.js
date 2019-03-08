@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
- const NavBar = (
+ const NavBar = () => (
 
  <nav className="navbar is-transparent">
 <div className="navbar-brand">

@@ -1,16 +1,16 @@
 import React, { Component } from "react";
 
 export default class FormField extends Component {
-  constructor(props) {
+  constructor (props) {
     super(props)
 
   }
   render() {
     return (
-      <div className="field">
+      <div className="field field-added">
   <label className="label">{ this.props.name }</label>
         <div className="control">
-    <input className="input" type={ this.props.type } placeholder={ this.props.placeholder }/>
+    <input className="input" type={ this.props.type } placeholder={ this.props.placeholder}/>
         </div>
   </div>
     )
