@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import CoolButton from "./CoolButton"
 
  const NavBar = () => (
 
@@ -71,6 +72,11 @@ import React, { Component } from "react";
             <span>Download</span>
           </a>
         </p>
+        <p className="control">
+            <CoolButton />
+          
+        </p>
+        
       </div>
     </div>
   </div>
